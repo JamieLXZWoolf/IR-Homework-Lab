@@ -2,10 +2,12 @@ import os
 
 from pathlib import Path
 from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
 import numpy as np
 from math import log, sqrt
 _STOP_WORDS = set(stopwords.words('english'))
 _WORD_MIN_LENGTH = 3
+_LEMMATIZER = WordNetLemmatizer()
 
 def word_split(text):
     word_list = []
@@ -32,16 +34,17 @@ def words_cleanup(words):
         cleaned_words.append((index, word))
     return cleaned_words
 
-def words_normalize(words):
-    normalized_words = []
+def words_normalize_and_lemmatize(words):
+    res = []
     for index, word in words:
-        wnormalized = word.lower()
-        normalized_words.append((index, wnormalized))
-    return normalized_words
+        w_normalized = word.lower()
+        w_lemmatized = _LEMMATIZER.lemmatize(w_normalized)
+        res.append((index, w_lemmatized))
+    return res
 
 def word_index(text):
     words = word_split(text)
-    words = words_normalize(words)
+    words = words_normalize_and_lemmatize(words)
     words = words_cleanup(words)
     return words
 

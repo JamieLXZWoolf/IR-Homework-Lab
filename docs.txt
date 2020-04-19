@@ -1,35 +1,37 @@
-Entity search: building bridges between two worlds
-Entity recommendations in web search
-Repeatable and reliable semantic search evaluation
-Coreference aware web object retrieval
-Inconsistencies, negations and changes in ontologies
-Computing semantic relatedness using wikipedia-based explicit semantic analysis
-Biperpedia: An ontology for search applications
-Federated entity search using on-the-fly consolidation
-Heterogeneous web data search using relevance-based on the fly data integration
-Matching large ontologies: A divide-and-conquer approach
-Logmap 2.0: towards logic-based, scalable and interactive ontology matching
-Result of ontology alignment with RiMOM at OAEI 2006
-Online data fusion
-Topic indexing with wikipedia
-Learning to link with wikipedia
-Ad-hoc object retrieval in the web of data
-Cross-lingual entity matching and infobox alignment in wikipedia
-Entity resolution in the web of data
-Probabilistic Alignment of Relations, Instances, and Schema
-Verbs semantics and lexical selection
-Schema extraction for tabular data on the web
-Dbpedia: A nucleus for a web of open data
-Freebase: a collaboratively created graph database for structuring human knowledge
-Webtables: exploring the power of tables on the web
-Toward an architecture for never-ending language learning
-Flumejava: easy, efficient data-parallel pipelines
-Probabilistic query expansion using query logs
-Principles of Data Integration
-Open information extraction: The second generation
-Identifying relations for open information extraction
-WordNet: An Electronic Lexical Database
-Incorporating non-local information into information extraction systems by gibbs sampling
-Simple coreference resolution with rich syntactic and semantic features
-Automatic acquisition of hyponyms from large text corpora
-An effective semantic search technique using ontology
+Inferring and using location metadata to personalize web search
+Classification enhanced ranking
+Learning to rank with non-smooth cost functions
+Context-aware query suggestion by mining clickthrough and session data
+Context-aware query classification
+The Yahoo! learning to rank challenge
+Using ODP metadata to personalize search
+Personalizing web search results by reading level
+A session based personalized search using an ontological user profile
+Understanding the relationship between searchers’ queries and information goals
+A large-scale evaluation and analysis of personalized search strategies
+Evaluating implicit measures to improve Web search
+Smoothing clickthrough data for web search ranking
+Ontologybased user profiles for search and browsing
+Beyond the session timeout automatic hierarchical segmentation of search topics in query logs
+Session track overview
+Modeling and analysis of cross-session search tasks
+Dynamic adaptation strategies for long-term and short-term user profile to personalize search
+Interest-based personalized search
+Personalizing web search using long term browsing history
+Learning to disambiguate search queries from short sessions
+Predictive user click models based on click-through history
+Analysis of topic dynamics in Web search
+Context-sensitive information retrieval using implicit feedback
+Probabilistic models for personalizing web search
+Personalizing search based on user search histories
+Adaptive web search based on user profile constructed without any effort from users
+Mining long-term search history to improve search accuracy
+Personalizing search via automated analysis of interests and activities
+To personalize or not to personalize: modeling queries with variation in user intent
+Understanding and prediction personal navigation
+Investigating behavioral variability in Web search
+Predicting user interests from contextual information
+Predicting short-term interests using activity-based search context
+Ranking, boosting, and model adaptation
+Context-aware ranking in Web search
+Incorporating post-click behaviors into a click model
