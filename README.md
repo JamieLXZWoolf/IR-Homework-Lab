@@ -1,2 +1,2 @@
 # Information Retrieval Homework Project
- Used only for demonstration, including inverted indexc reation, vector space retrieval and language model retrieval..
+ Used only for demonstration, including inverted indexc reaction, vector space retrieval and language model retrieval..
